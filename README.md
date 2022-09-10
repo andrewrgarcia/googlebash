@@ -12,7 +12,15 @@ googleh foo bar baz
 
 ### Setup
 
-place **googleh.sh** in a destination folder i.e. $HOME/my_folder/
+```ruby
+# Download this repository
+git clone https://github.com/andrewrgarcia/googlebash.git
+
+# Access cloned directory
+cd googlebash
+```
+
+place **googleh.sh** in any particular destination folder i.e. $HOME/my_folder/
 
 ```ruby
 # On Terminal inside this folder:
