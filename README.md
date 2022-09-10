@@ -5,6 +5,7 @@ Calling a google search from your terminal / command line
 ## Usage Example:
 
 ```ruby
+# On Terminal:
 googleh foo bar baz
 ```
 ![](output.png)
