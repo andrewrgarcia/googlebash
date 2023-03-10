@@ -2,15 +2,16 @@
 
 Calling a google search from your terminal / command line
 
-## Usage Example:
+## Usage (Setup below):
 
 ```ruby
 # On Terminal:
-googleh foo bar baz
+google foo bar baz
 ```
+![](terminal.png)
 ![](output.png)
 
-### Setup
+## Setup
 
 ```ruby
 # Download this repository
@@ -31,7 +32,7 @@ chmod +x googleh.sh
 gedit .bashrc
 
 # On **.bashrc** file, type:
-alias googleh=`$HOME/my_folder/googleh.sh` 
+alias google=`$HOME/[path-to-downloaded-googlebash]/googleh.sh` 
 
 # On Terminal, type:
 source ~/.bashrc
