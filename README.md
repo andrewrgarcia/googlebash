@@ -6,7 +6,7 @@ Calling a google search from your terminal / command line
 
 ```ruby
 # On Terminal:
-google foo bar baz
+google octocat funny
 ```
 ![](terminal.png)
 ![](output.png)
