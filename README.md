@@ -6,37 +6,31 @@ Calling a google search from your terminal / command line
 
 ```ruby
 # On Terminal:
-google octocat funny
+google here comes the rain again
 ```
-![](terminal.png)
 ![](output.png)
 
-## Setup
+That’s already very clean and clear! Here's a **lightly polished version** with consistent formatting and a minor tweak for readability:
 
-```ruby
-# Download this repository
+
+## ✅ Make it Runnable from Anywhere
+
+1. **Clone the repository to your home directory:**
+
+```bash
+cd ~
 git clone https://github.com/andrewrgarcia/googlebash.git
-
-# Access cloned directory
-cd googlebash
 ```
 
-place **googleh.sh** in any particular destination folder i.e. $HOME/my_folder/
+2. **Make the script executable:**
 
-```ruby
-# On Terminal inside this folder:
-chmod +x googleh.sh
+```bash
+chmod +x ~/googlebash/googleh.sh
+```
 
-# --- To call script from anywhere ---
-# On Terminal, type:
-gedit .bashrc
+3. **Add an alias to your `.bashrc`:**
 
-# On **.bashrc** file, type:
-alias google=`$HOME/[path-to-downloaded-googlebash]/googleh.sh` 
-
-# On Terminal, type:
+```bash
+echo 'alias google="$HOME/googlebash/googleh.sh"' >> ~/.bashrc
 source ~/.bashrc
 ```
-
-
-
